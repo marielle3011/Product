@@ -1,12 +1,9 @@
+import React from "react";
+import NumberList from "./Numlist";
 
-import React from 'react';
-import ProductsPage from './ProductsPage';
-
-function App() {
-  return (
-    <ProductsPage/>
-  );
+function App(){
+  return(
+    <NumberList/>
+  )
 }
-
-
 export default App;
